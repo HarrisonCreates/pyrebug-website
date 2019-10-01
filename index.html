@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <title>Take Flight Development | Home</title>
+</head>
+
+<body>
+
+  <div class="info_modal">
+    <div class="left_col"></div>
+    <div class="right_col">
+      <div class="top_bar">
+        <h1>Name Here</h1>
+        <p class="close_modal">&times;</p>
+      </div>
+      <div class="person_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sunt distinctio repudiandae repellendus autem provident perferendis modi. Qui porro deleniti rem, aliquam facilis laudantium, cumque, explicabo, et cum
+        aliquid soluta?</div>
+    </div>
+  </div>
+  <div class="main_wrapper">
+    <div class="side_nav">
+      <div class="circle home_easy_nav"></div>
+      <div class="circle about_easy_nav"></div>
+      <div class="circle team_easy_nav"></div>
+      <div class="circle discord_easy_nav"></div>
+      <div class="circle games_easy_nav"></div>
+    </div>
+
+    <div class="card_one">
+      <div class="top_bar">
+        <img src="assets/white_logo.png" alt="Take Flight Development Logo">
+        <div class="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <nav class="main_nav">
+          <a href="main.html">
+            <p>Home</p>
+          </a>
+          <a class="about_btn">
+            <p>About</p>
+          </a>
+          <a class="team_btn">
+            <p>Our Team</p>
+          </a>
+          <a class="discord_btn">
+            <p>Discord</p>
+          </a>
+          <a class="games_btn">
+            <p>Games</p>
+          </a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="card_two">
+      <div class="info_panel">
+        <h3>About The Company</h3>
+        <h1>Who are we?</h1>
+        <p>Take Flight Development is a group of passionate individuals coming together to create unique and fun games as a group. Together we're working on several exciting projects; each of which plays a different role in the developemnt of our
+          team
+          and our company.</p>
+      </div>
+    </div>
+
+    <div class="card_three">
+
+    </div>
+
+    <div class="card_four">
+      <div class="info_panel">
+        <h3>About The Team</h3>
+        <h1>Who makes up our team?</h1>
+        <p>Take Flight Development is made up of a diverse and skilled group of designers, artists, programmers, and composers. Together, we work toward a common goal of creating games we love - and hope you'll love. Currently we're all wokring on
+          hard
+          projects, below you'll find portraits of everyone in our family, and what games they're working on at the moment.</p>
+      </div>
+    </div>
+
+    <div class="screenshot_interrupt_one interrupt">
+
+    </div>
+
+    <div class="card_five">
+      <h1 class="title">Our Team</h1>
+      <div class="card_area">
+        <div onclick="open_modal('Josh')">
+          <div class="bg_img"></div>
+          <div class="person_info">
+            <h1 class="name">Josh Hirshfield</h1>
+            <p class="desc">CEO., Lead Programmer, Founder</p>
+          </div>
+        </div>
+        <div onclick="open_modal('Alex')">
+          <div class="bg_img"></div>
+          <div class="person_info">
+            <h1 class="name">Alex Williams</h1>
+            <p class="desc">Chief Technology Officer</p>
+          </div>
+        </div>
+        <div onclick="open_modal('Chris')">
+          <div class="bg_img"></div>
+          <div class="person_info">
+            <h1 class="name">Chris Janocha</h1>
+            <p class="desc">Game Designer</p>
+          </div>
+        </div>
+        <div onclick="open_modal('Devin')">
+          <div class="bg_img"></div>
+          <div class="person_info">
+            <h1 class="name">Devin Quinn</h1>
+            <p class="desc">Game Designer</p>
+          </div>
+        </div>
+        <div onclick="open_modal('Austin')">
+          <div class="bg_img"></div>
+          <div class="person_info">
+            <h1 class="name">Austin Cappetta</h1>
+            <p class="desc">Soundtrack Composer</p>
+          </div>
+        </div>
+        <div onclick="open_modal('Malcolm')">
+          <div class="bg_img"></div>
+          <div class="person_info">
+            <h1 class="name">Malcolm Braren</h1>
+            <p class="desc">Soundtrack Composer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="screenshot_interrupt_two interrupt">
+
+    </div>
+
+    <div class="card_six">
+      <h1 class="title">Come Join The Party!</h1>
+      <div class="soc_med_coll_list">
+        <a href="#">
+          <img src="assets/discord.png" alt="Discord">
+        </a>
+        <a href="#">
+          <img src="assets/twitter.png" alt="Twitter">
+        </a>
+        <a href="#">
+          <img src="assets/youtube.png" alt="YouTube">
+        </a>
+      </div>
+    </div>
+
+    <div class="screenshot_interrupt_three interrupt">
+
+    </div>
+
+    <div class="card_seven">
+      <h1 class="title">Our Games</h1>
+      <div class="games_section">
+        <div class="mobile">
+          <div>
+            <video class="game_vid" muted src="assets/Aether.mp4" loop autoplay></video>
+            <div class="poster" style="background-image: url('assets/josh_game.png')"></div>
+            <div class="game_title">
+              <h1>Aether</h1>
+            </div>
+            <div class="game_desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus repudiandae ex commodi quis eum libero non quae voluptatum accusantium ipsa deserunt, neque maxime, atque quasi iusto animi, nesciunt
+              inventore natus.
+            </div>
+            <div class="buy_links">
+              <img src="assets/steam_logo.png" width="50%" alt="Steam Logo">
+              <img src="assets/itchio.png" width="45%" alt="Itch.io Logo">
+            </div>
+          </div>
+          <hr class="game_hr">
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

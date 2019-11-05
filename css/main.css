@@ -90,6 +90,10 @@ body {
   background-image: url('../assets/coming_soon.png');
 }
 
+.card_five>.card_area>div:nth-child(17)>.bg_img {
+  background-image: url('../assets/coming_soon.png');
+}
+
 
 
 /*
